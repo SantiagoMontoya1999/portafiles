@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Santiago Montoya Arboleda, desarrollo de software.">
+    <title>Portafolio | Santiago Montoya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+   
+    <header class="bg-gray-800 p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-indigo-400 italic">Santiago Montoya</h1>
+            <nav>
+                <ul class="flex space-x-6 text-lg">
+                    <li><a href="#about" class="hover:text-indigo-300">Sobre Mí</a></li>
+                    <li><a href="#projects" class="hover:text-indigo-300">Proyectos</a></li>
+                    <li><a href="#skills" class="hover:text-indigo-300">Habilidades</a></li>
+                    <li><a href="#contact" class="hover:text-indigo-300">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="flex items-center justify-center h-screen bg-cover bg-center bg-fixed" style="background-image: url('https://media2.utp.edu.co/imagenes/Logo-UTP-Azul.png');">
+        <div class="text-center bg-black bg-opacity-50 p-6 rounded-xl">
+            <h1 class="text-5xl font-bold text-indigo-400 animate-pulse">Desarrollador de Software</h1>
+            <p class="text-xl mt-4 text-indigo-50 italic">Universidad Tecnológica de Pereira</p>
+            <p class="mt-6 text-indigo-50 w-[500px] mx-auto italic">Soy una persona comprometida, responsable y honesta. Me apasiona el desarrollo de software y disfruto trabajar en equipo. Mis habilidades interpersonales me permiten construir relaciones productivas y respetuosas.</p>
+            <a href="#about" class="mt-10 inline-block text-lg font-semibold text-indigo-500 hover:text-indigo-300 transition duration-300">Saber más sobre mí</a>
+        </div>
+    </section>
+
+
+    <section id="about" class="py-20 bg-gray-900 text-center">
+      <div class="container mx-auto max-w-lg">
+          <h2 class="text-4xl font-bold text-indigo-400 mb-8">Sobre Mí</h2>
+          <img src="foto.png" alt="Foto Profesional" class="max-w-[400px] max-h-[400px] w-auto h-auto mx-auto mb-6">
+          <p class="text-lg text-indigo-50 w-full mx-auto italic">Soy Santiago Montoya Arboleda, un apasionado del desarrollo de software. Me encanta aprender nuevas tecnologías y resolver problemas complejos. Mi objetivo es ser un desarrollador Full Stack y contribuir a proyectos innovadores.</p>
+      </div>
+  </section>
+
+
+    <section id="skills" class="py-20 bg-gray-800 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-indigo-400 mb-8">Habilidades</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="skill-card hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
+                    <img class="w-full h-16 object-cover mx-auto" src="https://cms-assets.tutsplus.com/uploads/users/12/posts/5088/preview_image/html5.jpg" alt="HTML">
+                    <p class="text-lg mt-4">HTML</p>
+                </div>
+                <div class="skill-card hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
+                    <img class="w-full h-16 object-cover mx-auto" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+                    <p class="text-lg mt-4">CSS</p>
+                </div>
+                <div class="skill-card hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
+                    <img class="w-full h-16 object-cover mx-auto" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+                    <p class="text-lg mt-4">JavaScript</p>
+                </div>
+                <div class="skill-card hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
+                    <img class="w-full h-16 object-cover mx-auto" src="https://cdn-icons-png.flaticon.com/512/919/919852.png" alt="Python">
+                    <p class="text-lg mt-4">Python</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="projects" class="py-20 bg-gray-900 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-indigo-400 mb-8">Proyectos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="project-card hover:bg-indigo-700 transition duration-300 transform hover:scale-105 p-6 bg-gray-800 rounded-xl">
+                    <img class="w-full h-48 object-cover mb-4" src="https://cdn.prod.website-files.com/5f5a53e153805db840dae2db/643ec21a9c45304c1a3a07b7_Que%20es%20un%20lenguaje%20de%20programacion%20JavaScript.jpg" alt="Proyecto 1">
+                    <h3 class="text-2xl font-bold mb-2">Proyecto 1</h3>
+                    <p class="text-lg">Este proyecto fue desarrollado utilizando HTML, CSS y JavaScript. Aprendí a crear interfaces dinámicas y optimizar el rendimiento.</p>
+                </div>
+                <div class="project-card hover:bg-indigo-700 transition duration-300 transform hover:scale-105 p-6 bg-gray-800 rounded-xl">
+                    <img class="w-full h-48 object-cover mb-4" src="imagen.jpg" alt="Proyecto 2">
+                    <h3 class="text-2xl font-bold mb-2">Proyecto 2</h3>
+                    <p class="text-lg">un pequeño proyecto enfocado en distintos gneros de juegos y sus categorias creado con java script , utilizando cosas enfocadas como API, y thunder client para las conexiones y los estilos con html y css</p>
+                    <a href="https://github.com/SantiagoMontoya1999/Tarjetas.git" style="color: crimson;">dale aqui para poder ver mas afondo el proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="py-20 bg-gray-800 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-indigo-400 mb-8">Contacto</h2>
+            <p class="text-lg text-indigo-50 mb-6">¿Interesado en trabajar conmigo? ¡Contáctame!</p>
+            <a href="https://github.com/SantiagoMontoya1999" style="color: brown;"> ¡Dale aqui y podras ver todos mis proyectos!</a>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-center py-6">
+        <p>&copy; 2024 Santiago Montoya Arboleda .</p>
+    </footer>
+
+</body>
+
+</html>
